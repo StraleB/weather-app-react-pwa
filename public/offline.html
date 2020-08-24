@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Offline</title>
+    <style media="screen">
+      @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+      /*
+font-family: 'Karla', sans-serif;
+font-family: 'Rubik', sans-serif;
+*/
+
+      body{
+    background-image:url('./images/winter_snow_landscape_minimalist_8k_13278-2560x1080.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-color: #1B2F4C;
+}
+
+.offline404{
+  background:white;
+  font-family: 'Rubik', sans-serif;
+  width:28em;
+  text-align:center;
+  margin:2em auto;
+}
+
+img[alt="404"]{
+  height:15em;
+}
+
+      @media only screen and (max-width: 768px){
+      body{
+          background:url('./images/tablet.jpg');
+          background-repeat: no-repeat;
+      }
+  }
+
+  @media only screen and (max-width: 420px){
+      body{
+          background:url('./images/phone.jpg');
+          background-repeat: no-repeat;
+      }
+  }
+    </style>
+  </head>
+  <body>
+<div class="offline404">
+  <img src="./weather-app-pwa/public/images/undraw_page_not_found_su7k (1).png" alt="404">
+  <h1>NOT FOUND</h1>
+</div>
+  </body>
+</html>
